@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope&display=swap');
+
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: #f6f7f8;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+div {
+  letter-spacing: 1px;
+  color: #424c55;
+}
+
+input {
+  font-size: 0.85em;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  color: #424c55;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  transform: scale(1.5);
+  margin-bottom: 16px;
+}
+
+select {
+  font-size: 1em;
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 24px;
+}
+
+.mb-4 {
+  margin-bottom: 32px;
+}
+
+.mb-5 {
+  margin-bottom: 40px;
+}
+
+.mb-6 {
+  margin-bottom: 48px;
+}
+
+main {
+  padding: 0 30px;
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-gray {
+  background: #424c55;
+}
+
+.text-gray {
+  color: #424c55;
+}
+
+.bg-red {
+  background: #db5461;
+}
+
+.text-red {
+  color: #db5461;
+}
+
+.bg-blue {
+  background: #00b2ca;
+}
+
+.bg-gradient {
+  background: linear-gradient(
+    270deg,
+    rgba(99, 208, 213, 1) 0%,
+    rgba(99, 213, 192, 1) 100%
+  );
+}
+
+.text-blue {
+  color: #00b2ca;
+}
+
+.welcome-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.welcome-container .content {
+  border-bottom: 1px solid #424c55;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.color-list-container {
+  display: flex;
+}
+
+.color-list-container .color-item {
+  flex: 1;
+  height: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+.component-class {
+  margin-bottom: 24px;
+}
+
+.component-item {
+  border-bottom: 1px dashed #424c55;
+  padding-bottom: 48px;
+  margin-bottom: 24px;
+}
+
+.badge {
+  border: 1px solid #424c55;
+  background-color: #00b2ca;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 24px;
+}
+
+.card {
+  border: 1px solid #424c55;
+  padding: 16px;
+  background-color: white;
+}
+
+.button {
+  border: 1px solid #424c55;
+  color: #424c55;
+  border-radius: 5px;
+  padding: 5px 24px;
+  font-size: 0.85em;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #00b2ca;
+}
+
+.font-awesome-examples {
+  display: flex;
+  font-size: 4em;
+}
+
+.font-awesome-examples i {
+  flex: 1;
+  text-align: center;
+}
+
+footer {
+  background-color: #00b2ca;
+  padding: 24px;
+  text-align: center;
+  color: white;
+}
