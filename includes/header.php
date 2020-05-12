@@ -10,12 +10,17 @@
 <body>
   <nav class="navbar">
     <div class="nav-logo">
-      <img src="img/logo.png" alt="LBConnect logo">
+      <a href="/"><img src="/img/logo.png" alt="LBConnect logo"></a>
     </div>
+
     <div class="nav-link-container">
       <ul class="nav-links">
-        <li>Register</li>
-        <li>Log In</li>
+        <li><a href="/"><span class="nav-link-full">Home</span><i class="fas fa-home nav-link-mobile"></i></a></li>
+        <li><a href="/"><span class="nav-link-full">Profile</span><i class="fas fa-user nav-link-mobile"></i></a></li>
+        <li><a href="/"><span class="nav-link-full">Inbox</span><i class="fas fa-envelope-open-text nav-link-mobile"></i></a></li>
+        <li><a href="/"><span class="nav-link-full">Logout</span><i class="fas fa-sign-out-alt nav-link-mobile"></i></a></li>
       </ul>
     </div>
+
+
   </nav>

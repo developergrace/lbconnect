@@ -83,7 +83,7 @@
         <h3>Inputs</h3>
         <p>We've updated the CSS to style the inputs and make them larger.</p>
         <div class="mb-3">
-          <input type="text" style="width:500px;">
+          <input type="text">
         </div>
         <div>
           <input type="checkbox"> Option A

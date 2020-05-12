@@ -5,7 +5,8 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
   background-color: #f6f7f8;
 }
 
@@ -119,7 +120,8 @@ main {
 .color-list-container .color-item {
   flex: 1;
   height: 40px;
-  padding: 20px;
+  width: 20%;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -175,4 +177,48 @@ footer {
   padding: 24px;
   text-align: center;
   color: white;
+}
+
+
+/* Grace Styles */
+/* Profile Page Styles */
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+button {
+    margin-top: 1em;
+    transition: all .5s ease;
+}
+
+button:hover {
+    color: white;
+}
+
+textarea {
+    height: 100px;
+    width: 500px;
+    padding: 10px;
+}
+
+[readonly] {
+    background-color:#f6f7f8;
+    border: none;
+    outline: none;
+}
+
+/* Newsfeed Styles */
+#tag_list label {
+    display: inline;
+}
+
+/* Styleguide Styles */
+pre {
+    word-break: break-all;
+    overflow-x: scroll;
+}
+
+input[type='text'] {
+    width: 60%;
 }
